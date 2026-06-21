@@ -171,7 +171,7 @@ def render():
             navigate_to("chatbot")
             st.rerun()
 
-   st.markdown("""
+    st.markdown("""
 ### Connect with NayePankh Foundation
 
 📸 **Instagram**  
