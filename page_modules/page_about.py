@@ -172,17 +172,51 @@ def render():
             st.rerun()
 
     st.markdown("""
-    <div class="np-card animate-in" style="margin-top:1.5rem;text-align:center;padding:2rem;">
-      <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1.1rem;color:#0F172A;margin-bottom:0.75rem;">
-        Contact NayePankh Foundation
-      </div>
-      <div style="font-size:0.9rem;color:#64748B;line-height:1.8;margin-bottom:1rem;">
-        📧 <a href="mailto:contact@nayepankh.org" style="color:#3B82F6;text-decoration:none;">contact@nayepankh.org</a><br>
-        🌐 <a href="https://nayepankh.org" target="_blank" style="color:#3B82F6;text-decoration:none;">www.nayepankh.org</a><br>
-        📱 Follow us on LinkedIn & Instagram: <strong>@NayePankhFoundation</strong>
-      </div>
-      <div style="font-size:0.8rem;color:#94A3B8;">
-        Built for NayePankh Foundation · Developed by Mayank Mishra · © 2026
-      </div>
+<div class="np-card animate-in" style="margin-top:1.5rem;text-align:center;padding:2rem;">
+    <div style="font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1.1rem;color:#0F172A;margin-bottom:0.75rem;">
+        Connect with NayePankh Foundation
     </div>
-    """, unsafe_allow_html=True)
+
+    <div style="font-size:0.95rem;color:#64748B;line-height:2;margin-bottom:1rem;">
+
+        📸 Instagram:
+        <a href="https://www.instagram.com/nayepankhfoundation" target="_blank"
+        style="color:#3B82F6;text-decoration:none;">
+        @nayepankhfoundation
+        </a>
+        <br>
+
+        💼 LinkedIn:
+        <a href="https://www.linkedin.com/company/nayepankh" target="_blank"
+        style="color:#3B82F6;text-decoration:none;">
+        NayePankh Foundation
+        </a>
+        <br>
+
+        🌐 Website:
+        <a href="https://www.nayepankh.com" target="_blank"
+        style="color:#3B82F6;text-decoration:none;">
+        www.nayepankh.com
+        </a>
+        <br>
+
+        ▶️ YouTube:
+        <a href="https://youtube.com/@nayepankhfoundation" target="_blank"
+        style="color:#3B82F6;text-decoration:none;">
+        @nayepankhfoundation
+        </a>
+        <br>
+
+        📘 Facebook:
+        <a href="https://facebook.com/nayepankhfoundation" target="_blank"
+        style="color:#3B82F6;text-decoration:none;">
+        NayePankh Foundation
+        </a>
+
+    </div>
+
+    <div style="font-size:0.8rem;color:#94A3B8;">
+        Built for NayePankh Foundation · Developed by Mayank Mishra · © 2026
+    </div>
+</div>
+""", unsafe_allow_html=True)
