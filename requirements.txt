@@ -1,0 +1,12 @@
+streamlit>=1.35.0
+groq>=0.11.0
+PyPDF2>=3.0.0
+pdfplumber>=0.11.0
+fpdf2>=2.7.9
+pandas>=2.0.0
+python-dotenv>=1.0.0
+Pillow>=10.0.0
+requests>=2.31.0
+
+# Optional — only needed if LLM_GEMINI_FALLBACK=1 in .env
+# google-genai>=1.0.0
