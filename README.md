@@ -307,6 +307,6 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 Made with ❤️ for students across India
 
-**🕊️ NayePankh Foundation — Empowering Students, Changing Lives**
+**MAYANK MISHRA**
 
 </div>
