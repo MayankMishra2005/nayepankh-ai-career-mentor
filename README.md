@@ -24,6 +24,12 @@ This tool is part of **NayePankh Foundation's** mission to democratise world-cla
 
 ---
 
+## Working Link
+
+https://nayepankh-ai-career-mentor.onrender.com
+
+---
+
 ## 🎯 Problem Statement
 
 Millions of Indian students graduate each year without clear career direction, actionable skill development plans, or access to quality mentorship. Traditional career counselling is expensive, geographically limited, and generic. NayePankh Career Mentor solves this by putting a personalised, AI-powered career advisor in every student's pocket — for free.
