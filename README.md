@@ -10,7 +10,7 @@
 
 **An AI-powered career guidance platform for students — built for NayePankh Foundation**
 
-[Features](#features) · [Architecture](#multi-agent-architecture) · [Installation](#installation) · [Usage](#usage) · [Screenshots](#screenshots)
+[Features](#features) · [Architecture](#multi-agent-architecture) · [Installation](#installation) · [Usage](#usage) 
 
 </div>
 
@@ -92,7 +92,7 @@ Student Profile
       │
       ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                    AGENT ORCHESTRATOR                        │
+│                    AGENT ORCHESTRATOR                       │
 │  (pages/page_agents.py + utils/memory.py)                   │
 └───────────────────────────┬─────────────────────────────────┘
                             │
@@ -171,8 +171,7 @@ source venv/bin/activate        # Mac/Linux
 # 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Set up your API key (choose one method)
-
+# 4. Set up your API key 
 cp .env.example .env
 # Edit .env and add: GROQ_API_KEY=your_key_here
 
@@ -238,7 +237,7 @@ nayepankh-career-mentor/
 │   ├── skill_gap.py          # Skill gap computation
 │   └── export.py             # PDF report generation
 │
-├── pages/                    # Streamlit page renderers
+├── page_modules/             # Streamlit page renderers
 │   ├── page_home.py
 │   ├── page_profile.py
 │   ├── page_agents.py
@@ -256,26 +255,10 @@ nayepankh-career-mentor/
 │   └── sidebar.py            # Navigation sidebar
 │
 └── utils/                    # Utility functions
-    ├── gemini_client.py      # Gemini API wrapper
+    ├── groq_client.py        # Groq API wrapper
     ├── memory.py             # Session state manager
     └── helpers.py            # Formatting utilities
 ```
-
----
-
-## 📸 Screenshots
-
-> Screenshots will be added after first deployment.
-
-| Page | Description |
-|------|-------------|
-| Home | Hero banner with feature grid and agent cards |
-| Profile | Form + live profile card with skill tags |
-| AI Agents | Expandable agent outputs with individual run buttons |
-| Dashboard | Score cards, agent status grid, progress tracking |
-| Resume | PDF upload + analysis + score breakdown |
-| Chatbot | Styled chat bubbles with suggestion pills |
-| Goal Tracker | Goals list + checklist + certification database |
 
 ---
 
