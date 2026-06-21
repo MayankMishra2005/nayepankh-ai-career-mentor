@@ -173,11 +173,8 @@ pip install -r requirements.txt
 
 # 4. Set up your API key (choose one method)
 
-# Method A: .env file (recommended)
 cp .env.example .env
 # Edit .env and add: GROQ_API_KEY=your_key_here
-
-# Method B: Enter via the sidebar at runtime (no setup needed)
 
 # 5. Run the application
 streamlit run app.py
